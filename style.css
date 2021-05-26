@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #1E6F5C;
+  padding: 8px;
+}
+
+#header > img {
+  border-radius: 50%;
+}
+
+#header > p {
+  color: rgb(100, 100, 100);
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #1E6F5C;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+h3 {
+  color: #D3504A;
+}
+
+#link-news >  a {
+  text-decoration: none;
+  color: #29BB89;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  }
+
+#link-news {
+  text-align: center;
+  width: 350px;
+  margin: 15px auto;
+  background-color: rgba(39,139,77,0.3);
+  border-radius: 20px;
+  padding: 10px;
+  }
+
+
+#link-news:hover {
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 5px solid #E6DD3B;
+  padding: 5px;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#header,  #footer, #passions {
+  text-align: center;
+  margin: 40px 80px  auto;
+  background-color: rgba(39,139,77,0.3);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+ul {
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  }
+
+li > a {
+  color: #1E6F5C;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+li > a:hover {
+  font-size: 40px;$
+}
+
+li > a > i:hover {
+    color: #E6DD3B;
+}
+
+#games > img {
+  border-radius:  10px;
+}
+
+#rugby > img {
+  border-radius:  10px;
+}
+
+#games, #rugby {
+  border-radius: 10px;
+  background-color: #f7d1cd;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 10px 10px;
+}
